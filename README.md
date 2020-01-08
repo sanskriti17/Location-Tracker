@@ -1,8 +1,8 @@
-# Android-Individual-App--CMPE-277
+# Android-Tracking-App
  
 # Project Problem Statement: 
 
-Location Tracker is a most basic and easiest way of tracking family and friends via Android App. This App fetches the real time location of the user and shows the location on Map. It helps your loved ones to track you and take actions f there is any emergency. This incredible app can locate accurate positions instantly. This helps to know that family, friends and especially your kids are safe everywhere and at every point in time. This app will fetch your current location and address on a click of Button. 
+Tracking family and friends via Android App. This App fetches the real time location of the user and shows the location on Map. It helps your loved ones to track you and take actions when there is any emergency. This incredible app can locate accurate positions instantly. This helps to know that family, friends and especially your kids are safe everywhere and at every point in time. This app will fetch your current location and address on a click of Button. 
 
 # Screenshots
 
@@ -40,17 +40,13 @@ Without an API key the Google Maps map won't render anything.
 
 # Technology Used:
 
-1.	Android Studio 2.3 java
+1.	Android Studio 3.5 java
 
 2.	Firebase as database for tracking real time location
  
-3.	Android SDK version- Android 4.4 (Kitkat)
+3.	Android Gradle version 3.5
 
-4.	Android Plugin Version 3.0.1
-
-5.	Android Gradle version 4.1
-
-6.	Material Design for UI componets.
+4.	Material Design for UI componets.
 
 
 # Future Enhancements
