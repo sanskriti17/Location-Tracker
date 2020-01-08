@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.tulsi.trackingapp.Tracking">
+
+    <ImageView
+        android:id="@+id/satelit_id"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:contentDescription="@string/image_satelit"
+        android:src="@drawable/satelit" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/satelit_id"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/lobster"
+        android:text="Location Tracker"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerInParent="true"
+        android:text="You have signed in!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_below="@+id/Location"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/colorSatelit"
+        android:onClick="Tracking"
+        android:text="@string/fetch_location"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching Location: "
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:onClick="Map"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorSatelit"
+        android:text="Show in Map"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

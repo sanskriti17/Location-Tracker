@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "274396166583",
+    "firebase_url": "https://gpsfamily-e3123.firebaseio.com",
+    "project_id": "gpsfamily-e3123",
+    "storage_bucket": "gpsfamily-e3123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274396166583:android:b4aa91d0b0149c4fc6d032",
+        "android_client_info": {
+          "package_name": "com.example.tulsi.trackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274396166583-09a0f401tia4jfg66ms9ja16r24k2c2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tulsi.trackingapp",
+            "certificate_hash": "549cfc7bee7fa1c80e8d4fc74c31de95275cc425"
+          }
+        },
+        {
+          "client_id": "274396166583-2vq98tkbpf1qrr8aft3nppp0ocfmch3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKP-Ygv5RK-iGdMik5ak9BYox4qRe144"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274396166583-2vq98tkbpf1qrr8aft3nppp0ocfmch3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
